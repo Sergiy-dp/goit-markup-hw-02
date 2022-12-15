@@ -5,58 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEB STUDIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
-  <body>
+  <body class="site-body">
     <!-- шапка сторінки -->
-    <header>
-      <a href="/">WEB STUDIO</a>
-      <nav>
-        <!-- навігація на інші сторінки -->
-
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header-logo">
+      <a href="/"><span>WEB</span> STUDIO</a>
+      <!-- навігація на інші сторінки -->
+      <nav class="header-navigation">
+          <ul class="header-list">
+          <li class="header-item"><a class="header-link" href="">Studio</a></li>
+          <li class="header-item"><a class="header-link" href="/portfolio.html">Portfolio</a></li>
+          <li class="header-item"><a class="header-link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <!-- пошта,телефон -->
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+         <!-- пошта,телефон -->
+      <a class="heade-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a class="header-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
     </header>
     <main>
       <!-- герой -->
-      <section>
-        <h1>Effective Solutionsfor Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h class="title">Effective Solutionsfor Your Business</h>
+        <button class="hero-btn" type="button">Order Service</button>
       </section>
       <!-- Секція 1 без заголовку -->
-      <section>
-        <h2>Стратегія</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="section-1">
+        <h2 class="section-1-title">Стратегія</h2>
+        <ul class="section-1-list">
+          <li class="section-1-item">
+            <h3 class="section-1-subtitle">Strategy</h3>
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="section-1-item">
+            <h3 class="section-1-subtitle">Punctuality</h3>
+            <p class="text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="section-1-item">
+            <h3 class="section-1-subtitle">Diligence</h3>
+            <p class="text">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="section-1-item">
+            <h3 class="section-1-subtitle">Technologies</h3>
+            <p class="text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -64,55 +67,56 @@
         </ul>
       </section>
       <!-- Секція 2 -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li>
-            <img width="360" src="img/mac.jpg" alt="computer screen" />
+      <section class="section-2">
+        <h2 class="section-2-title">What are we doing</h2>
+        <ul class="section-2-list">
+          <li class="section-2-item">
+            <img class="section-2-pic" width="360" src="./images/mac.jpg" alt="computer screen" />
           </li>
-          <li>
-            <img width="360" src="img/iPhonescreens.jpg" alt="iPhone screens" />
+          <li class="section-2-item">
+            <img class="section-2-pic" width="360" src="./images/iPhonescreens.jpg" alt="iPhone screens" />
           </li>
-          <li>
+          <li class="section-2-item">
             <img
+              class="section-2-pic"
               width="360"
-              src="img/images_on_the_phone_and_on_the_laptop_screen.jpg"
+              src="./images/images_on_the_phone_and_on_the_laptop_screen.jpg"
               alt="images on the phone and on the laptop screen"
             />
           </li>
         </ul>
       </section>
       <!-- Секція 3 -->
-      <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
+      <section class="section-3">
+        <h2 class="section-3-title">Our Team</h2>
+        <ul class="section-3-list">
+          <li class="section-3-item">
+            <img class="section-3-pic"
               width="264"
-              src="img/markguerrero.jpg"
+              src="./images/markguerrero.jpg"
               alt="photo of the man"
             />
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
-            <img width="264" src="img/tomford.jpg" alt="photo of the man" />
+          <li class="section-3-item">
+            <img class="section-2-pic" width="264" src="./images/tomford.jpg" alt="photo of the man" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
-            <img
+          <li class="section-3-item">
+            <img class="section-3-pic"
               width="264"
-              src="img/camilagarcia.jpg"
+              src="./images/camilagarcia.jpg"
               alt="photo of the girl"
             />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
-            <img
+          <li class="section-3-item">
+            <img class="section-3-pic"
               width="264"
-              src="img/danielwilson.jpg"
+              src="./images/danielwilson.jpg"
               alt="photo of the man"
             />
             <h3>Daniel Wilson</h3>
